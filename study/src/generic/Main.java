@@ -10,7 +10,6 @@ public class Main {
 		
 		GenericEx<Boolean> generic3 = new GenericEx<Boolean>();
 		generic3.setType(true);
-		
 		generic1.typeof();
 		generic2.typeof();
 		generic3.typeof();
