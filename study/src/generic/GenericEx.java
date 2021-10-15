@@ -13,6 +13,5 @@ public class GenericEx <T>{
 
 	<T>void typeof(){
 		System.out.println("객체의 자료형 : " +type.getClass().getName().substring(10));
-	}
-	
+	}	
 }
