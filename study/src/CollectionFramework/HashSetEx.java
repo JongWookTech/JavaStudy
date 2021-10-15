@@ -12,12 +12,12 @@ public class HashSetEx {
 		hash.add(3);
 		hash.add(4);
 		hash.add(5);
+		System.out.println(hash);
 		
 		Iterator<Integer> iter = hash.iterator();
 		while(iter.hasNext()) {
 			System.out.print(iter.next() + " ");
 		} 
-		System.out.println();
 		System.out.println(hash);
 		
 		TreeSet<Integer> tree = new TreeSet<>();
