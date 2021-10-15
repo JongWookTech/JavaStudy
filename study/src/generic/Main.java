@@ -13,5 +13,6 @@ public class Main {
 		generic1.typeof();
 		generic2.typeof();
 		generic3.typeof();
+		System.out.println("HI!");
 	}
 }
