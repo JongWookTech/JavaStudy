@@ -6,6 +6,7 @@ public class Main {
 		
 		Thread th1 = new Thread(run);
 		th1.start();
+		System.out.println();
 
  	}	
 }
