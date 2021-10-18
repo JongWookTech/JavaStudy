@@ -3,8 +3,8 @@ package synchronizedTest;
 public class ThreadTest extends Thread {
 	@Override
 	public void run() {
-		Thread threadName = Thread.currentThread();
-		String name = threadName.getName();
-		System.out.println("현재 Thread의 이름 : " + name);
+		int a = 10;
+		int b = 23;
+		System.out.println(getName() + " 작업 결과 : " + (a+b));
 	}
 }
